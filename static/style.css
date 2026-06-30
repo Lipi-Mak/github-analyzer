@@ -1,0 +1,126 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: white;
+
+}
+
+.container {
+
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+
+}
+
+h1 {
+
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+form {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+input {
+
+    width: 70%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+
+}
+
+button {
+
+    padding: 12px 25px;
+    border: none;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background: #0ea5e9;
+
+}
+
+.card {
+
+    background: #1e293b;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+
+}
+
+.score {
+
+    font-size: 40px;
+    font-weight: bold;
+    color: #22c55e;
+
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.stat-card {
+    background: #334155;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stat-card h3 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.stat-card p {
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+ul {
+
+    padding-left: 20px;
+
+}
+
+li {
+
+    margin-bottom: 8px;
+
+}
+
+.error {
+
+    background: crimson;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+
+}
